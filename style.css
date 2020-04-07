@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("font/Roboto/Roboto-Regular.ttf") format("TrueType");
+}
+
+*{
+    font-family: Roboto, arial;
+}
+
+
+.CV{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: flex-start;
+}
+
+.formation{
+    display: flex;
+}
+
+.loisir {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: stretch;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation, .corpus {
+    border: solid 1px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.presentation {
+    border-right: 0px;
+}
+
+.corpus {
+    border-left: 0px;
+}
+
+.presentation {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ background-color: #FFC107;
+ padding-top: 1.3em;
+ padding-bottom: 1.3em;
+ width: 275px;
+ }
+
+.contact ul, .contact a {
+    list-style-type: none;
+    font-style: normal;
+    color: black;
+}
+
+.espacebottomli{
+    padding-bottom: 20px;
+}
+
+.apropos p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+.exp, .competence{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.presentation h2 {
+    background-color: #263238;
+    color: #FFC107;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#prenomjaune {
+    color: #FFC107;
+}
+
+#lignejaune {
+    border-bottom: solid 1px #FFC107;
+}
+
+.souligner {
+    border-bottom: solid 1px #FFC107;
+}
+
+h2 img{
+    width: 20px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.corpus{
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.annee{
+    padding-right: 20px;
+}
+
+.annee p, .OC h3 {
+     margin-top: 0px;
+}
+
+.formation img, .exp img{
+    width:20px;
+    height: 20px;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+.competence {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: stretch;
+}
+
+.photo img {
+    border: 1px solid brown;
+    border-radius: 50%;
+}
