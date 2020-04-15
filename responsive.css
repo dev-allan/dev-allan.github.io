@@ -1,19 +1,79 @@
 ﻿@media only screen and (max-width: 767px) {
-    .presentation{
-        display: none;
+    .presentation  {
+        font-size: 12px;
+        width: 170px;
     }
-    .corpus{
+
+    .photo img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .contact ul{
+        padding-left: 2px;
+    }
+
+    .corpus {
         border-left: solid 1px;
+        width: auto;
     }
-    .formation, .exp{
+
+    .formation, .exp {
         flex-direction: column;
     }
 
-    .formation img, .exp img{
-        display: none;
-    }
+    .formation img, .exp img {
+            display: none;
+     }
 
     .annee, h3, h4 {
         text-align: center;
+    }
+
+    .photo {
+        width: 100%;
+        height: auto;
+    }
+
+    body{
+        font-size: 0.7em;
+    }
+
+    #iconeadaptationresponsive{
+        padding: 0px 0px 0px 0px;
+    }
+
+    .loisir img {
+        display: block;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 380px){
+
+    .corpus{
+        width: auto;
+    }
+
+    .presentation{
+        width: auto;
+        flex-direction: row;
+    }
+
+    .presentation footer{
+        display: none;
+    } 
+
+    .CV{
+        flex-direction: column-reverse;
+    }
+    .presentation, .corpus {
+        border: solid 1px;
+        box-shadow: none;
+    }
+
+    .photo{
+        display: none;
     }
 }
