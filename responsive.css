@@ -1,7 +1,16 @@
 ﻿@media only screen and (max-width: 767px) {
     .presentation  {
+        flex-direction: row;
         font-size: 12px;
         width: 170px;
+    }
+
+    .espacebottomli {
+        padding-bottom: 3px;
+    }
+
+    li{
+         font-size: 9px;
     }
 
     .photo img{
@@ -11,6 +20,7 @@
 
     .contact ul{
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
         padding-left: 10px;
         padding-right: 10px;
@@ -34,8 +44,7 @@
     }
 
     .photo {
-        width: 100%;
-        height: auto;
+        display: none;
     }
 
     body{
@@ -52,13 +61,18 @@
     }
 
     .CV {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .presentation{
         width: auto;
     }
-
+    
+    .apropos p{
+        font-size: 2.3vw;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
 }
 
 @media only screen and (max-width: 380px){
