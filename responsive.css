@@ -70,8 +70,11 @@
     
     .apropos p{
         font-size: 2.3vw;
-        padding-left: 70px;
-        padding-right: 70px;
+    }
+
+    .apropos {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -81,14 +84,14 @@
         width: auto;
     }
 
-    .presentation{
+    .presentation {
         width: auto;
-        flex-direction: row;
+        flex-direction: column;
     }
 
-    .presentation footer{
-        display: none;
-    } 
+    .apropos p{
+        font-size:12px;
+    }
 
     .CV{
         flex-direction: column-reverse;
