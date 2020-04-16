@@ -104,4 +104,26 @@
     .photo{
         display: none;
     }
+
+    .contact li{
+        padding-bottom: 10px;
+        padding-left: 5px;
+    }
+
+    .loisir img{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+    .loisir div {
+        display: flex;
+        flex-direction: row;
+    }
 }
