@@ -10,7 +10,10 @@
     }
 
     .contact ul{
-        padding-left: 2px;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .corpus {
@@ -44,8 +47,16 @@
     }
 
     .loisir img {
-        display: block;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .CV {
         flex-direction: column;
+    }
+
+    .presentation{
+        width: auto;
     }
 
 }
