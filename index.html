@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TP HTML</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Contenu projet "Structurer un contenu HTML"</h1>
     <h2>Page 1 : Histoire d'internet</h2>
     <p>
-      L’​histoire d'Internet​ remonte au développement des premiers réseaux de
+      <strong>L’​histoire d'Internet</strong>​ remonte au développement des premiers réseaux de
       télécommunication. L’idée d’un réseau informatique, permettant aux
       utilisateurs de différents ordinateurs de communiquer, se développa par de
       nombreuses étapes successives. La somme de tous ces développements
@@ -35,9 +36,9 @@
       compris avec les retombées de la bulle Internet.
     </p>
 
-    <h2>Chronologie sélective</h2>
-    <table border="1">
-      <thead>
+    <h3>Chronologie sélective</h3>
+    <table>
+      <thead id="thead">
         <tr>
           <th>Année</th>
           <th>Évènement</th>
@@ -58,7 +59,7 @@
             transmettre des données binaires sur une simple ligne téléphonique.
           </td>
         </tr>
-        <tr>
+        <tr id="hover">
           <td>1961</td>
           <td>
             Leonard Kleinrock du Massachusetts Institute of Technology publie
@@ -186,8 +187,6 @@
       <img
         src="web-server.jpg"
         alt="Le premier serveur web, actuellement au musée du CERN"
-        width="500px"
-        height="500px"
       />
       <figcaption>
         Fig.1 - Le premier serveur web, actuellement au musée du CERN, étiqueté
@@ -195,7 +194,7 @@
       </figcaption>
     </figure>
 
-    <h2>Protocole TCP/IP</h2>
+    <h3>Protocole TCP/IP</h3>
     <p>
       L'abondante diversité des méthodes de communications réseau amena un
       besoin d'uniformisation. Robert E. Kahn recruta Vinton G. Cerf de
@@ -208,13 +207,10 @@
       Zimmermann et Louis Pouzin (développeurs du réseau Cyclades) un important
       travail de développement.
     </p>
+
     <br />
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <p>
+    <p id="role-protocol">
       Avec le rôle du réseau physique réduit à son strict minimum, il devint
       alors possible de fusionner à peu près tout type de réseau sans tenir
       compte de leurs caractéristiques et ainsi résoudre le problème que s'était

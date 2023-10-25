@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(206, 204, 204);
+}
+
+h3 {
+ color:#ff0000;
+}
+
+thead > tr{
+    height: 55px;
+}
+
+#thead th{
+    color:white;
+    background-color: rgb(63, 63, 63);
+    border-spacing: -2px;
+    
+}
+
+tr {
+    padding : 50px
+}
+
+table, td, tr {
+    border: none;
+}
+
+a {
+    color : red
+}
+
+#hover:hover {
+    background-color: rgb(155, 154, 154);
+    cursor: pointer;
+}
+
+table tr:nth-child(2n){
+    background-color: gray
+}
+
+table tr{
+    background-color: rgb(255, 255, 255)
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+    justify-content: center;   
+    height: 100%;
+    background-color: rgb(29, 27, 27); 
+    color: white;
+    border:    solid 2px red;
+    border-radius: 1%;  
+}
+
+figcaption {
+    font-size: large;
+    text-align: center;
+}
+
+img {
+    width: 750px;
+    height: 750px;
+}
+
+#role-protocol{
+    background-color: rgb(136, 130, 130);
+    border: 5px blue dashed;
+    color: blue;
+    padding: 55px;
+    font-size: 30px;
+}
